@@ -1,6 +1,6 @@
 # Insurance_Documents_QA_Chatbot_RAG
 
-### ✨ <u>About the Project**</u><br>
+### ✨ <u>About the Project</u><br>
 RAG Insurance Assistant is an innovative solution crafted to simplify the process of understanding and extracting information from complex insurance documents. Traditional methods of sifting through policy documents, claim guidelines, and legal jargon can be time-consuming and frustrating for users. This project eliminates these pain points by leveraging Retrieval-Augmented Generation (RAG) technology, which blends advanced information retrieval with the natural language generation capabilities of state-of-the-art AI models. <br>
 
 Example Use Cases:<br>
@@ -10,7 +10,7 @@ Example Use Cases:<br>
 
 
 
-### 🔍 <u>Key Features**</u><br>
+### 🔍 <u>Key Features</u><br>
 - 🌟 Precise Information Retrieval: Quickly fetch relevant data from insurance documents using advanced embeddings.<br>
 - ⚡ Natural Language Understanding: Generates clear, concise answers in response to user questions.<br>
 - 🌟 AI-Powered Insights: Extracts answers directly from policy documents using RAG techniques.<br>
@@ -23,7 +23,7 @@ Example Use Cases:<br>
 
 ### 🛠️ <u>Tech Stack</u><br>
 - Language: Python-In Jupyter Notebook<br>
-= Frameworks/Libraries: ChromaDB, PDFplumber<br>
+- Frameworks/Libraries: ChromaDB, PDFplumber<br>
 - APIs/Models: OpenAI's GPT-4/ GPT-4o/ GPT-4o-mini or Gemini API or any other State-of-the-Art models<br>
 
 
@@ -49,8 +49,8 @@ The project is built using three layers namely:<br>
 - Embedding Layer<br>
 - Search layer<br>
 - Generation Layer<br>
-<br>
 
+  
 ### Embedding Layer<br>
 Here the PDF document needs to be effectively processed, cleaned, and chunked for the embeddings. We have used the pdfplumber library to extract text/tables etc from multiple pdf’s In the pdf pre-processing we have removed the pages where text length is less than 10. The chunking strategy used is the Page-wise chunking as we can observe that mostly the pages contain few hundred words, maximum going upto 1000. So, we don't need to chunk the documents further; we can perform the embeddings on individual pages. This strategy makes sense for 2 reasons:<br>
 
