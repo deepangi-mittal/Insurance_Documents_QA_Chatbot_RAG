@@ -24,7 +24,7 @@ Example Use Cases:<br>
 ### 🛠️ <u>Tech Stack</u><br>
 - Language: Python-In Jupyter Notebook<br>
 - Frameworks/Libraries: ChromaDB, PDFplumber<br>
-- APIs/Models: OpenAI's GPT-4/ GPT-4o/ GPT-4o-mini or Gemini API or any other State-of-the-Art models<br>
+- APIs/Models: OpenAI's GPT-3.5-turbo or any other State-of-the-Art models<br>
 
 
 
